@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAHSSOU HICHAM - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>LH</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Accueil</a>
+                <a href="#about" class="nav-link">À propos</a>
+                <a href="#skills" class="nav-link">Compétences</a>
+                <a href="#experience" class="nav-link">Expérience</a>
+                <a href="#projects" class="nav-link">Projets</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Bonjour, je suis</span>
+                        <span class="name">LAHSSOU HICHAM</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Ingénieur Informatique</h2>
+                    <p class="hero-description">
+                        Jeune fraîchement diplômé en informatique, je possède des compétences solides en 
+                        développement web, en architecture logicielle et en gestion de projet.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Me contacter</a>
+                        <a href="#projects" class="btn btn-secondary">Voir mes projets</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <div class="background-shape"></div>
+                        <img src="image.jpeg" alt="LAHSSOU HICHAM" class="profile-img">
+                    </div>
+                </div>
+            </div>
+            <div class="hero-social">
+                <a href="https://github.com/hiiishaam" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/lahssou-hicham" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:lahssouhicham@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="tel:+212616500742" class="social-link">
+                    <i class="fas fa-phone"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">À propos de moi</h2>
+                <p class="section-subtitle">Découvrez mon parcours et ma passion</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Jeune fraîchement diplômé en informatique, je possède des compétences solides en 
+                        développement web, en architecture logicielle et en gestion de projet.
+                    </p>
+                    <p>
+                        Je suis aujourd'hui prêt à mettre mes acquis au service d'une entreprise ambitieuse 
+                        et à continuer à apprendre au contact de professionnels expérimentés.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Projets réalisés</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">4</span>
+                            <span class="stat-label">Stages effectués</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">3</span>
+                            <span class="stat-label">Langues parlées</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-info">
+                    <div class="info-card">
+                        <h3><i class="fas fa-graduation-cap"></i> Formation</h3>
+                        <div class="education-item">
+                            <h4>Ingénieur en Systèmes d'Information</h4>
+                            <p>SUPMTI Rabat • 2023-2025</p>
+                        </div>
+                        <div class="education-item">
+                            <h4>Licence en Génie Logiciel</h4>
+                            <p>FST Errachidia • 2023</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <h3><i class="fas fa-language"></i> Langues</h3>
+                        <div class="language-item">
+                            <span>Arabe</span>
+                            <div class="language-level">
+                                <div class="level-bar" data-level="100"></div>
+                            </div>
+                        </div>
+                        <div class="language-item">
+                            <span>Français</span>
+                            <div class="language-level">
+                                <div class="level-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="language-item">
+                            <span>Anglais</span>
+                            <div class="language-level">
+                                <div class="level-bar" data-level="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Compétences techniques</h2>
+                <p class="section-subtitle">Technologies et outils que je maîtrise</p>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>Backend</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Java / Spring Boot</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">C# / .NET Core</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">PHP / Laravel</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">React.js</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Angular</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">HTML/CSS/JS</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Outils & Méthodologie</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Git / GitHub</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Scrum / Agile</span>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">RESTful API</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Expérience professionnelle</h2>
+                <p class="section-subtitle">Mon parcours et mes réalisations</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Mars 2025 - Juin 2025</div>
+                        <h3>Stage | CADETAF</h3>
+                        <h4>Application de Gestion des Missions</h4>
+                        <p>Mise en place d'une application complète pour la gestion des missions avec une architecture moderne.</p>
+                        <ul>
+                            <li>Backend développé avec ASP.NET Core</li>
+                            <li>Frontend réalisé avec Angular</li>
+                            <li>APIs RESTful testées avec Postman</li>
+                            <li>Outils : Visual Studio, VS Code</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tech-tag">ASP.NET Core</span>
+                            <span class="tech-tag">Angular</span>
+                            <span class="tech-tag">REST API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Mars 2024 - Juillet 2024</div>
+                        <h3>Stage | ENSET Mohammedia</h3>
+                        <h4>Application de Gestion des PFE</h4>
+                        <p>Développement d'une plateforme de gestion des projets de fin d'études.</p>
+                        <ul>
+                            <li>Backend Laravel avec base de données MySQL</li>
+                            <li>Interface utilisateur moderne avec ReactJS</li>
+                            <li>API REST documentée et testée</li>
+                            <li>Environnement de développement XAMPP</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">ReactJS</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Février 2023 - Avril 2023</div>
+                        <h3>Stage | ORMVA</h3>
+                        <h4>Application de Gestion de Parc Automobile</h4>
+                        <p>Conception et développement d'un système de gestion de flotte automobile.</p>
+                        <ul>
+                            <li>Rédaction de la conception technique</li>
+                            <li>Utilisation du modèle MVC en C#</li>
+                            <li>Framework ASP.NET pour le développement</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tech-tag">C# MVC</span>
+                            <span class="tech-tag">ASP.NET</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Février 2018 - Mars 2018</div>
+                        <h3>Stage | ONCF EMIC</h3>
+                        <h4>Maintenance des Moteurs Électriques</h4>
+                        <p>Initiation aux maintenances des moteurs électriques des trains.</p>
+                        <ul>
+                            <li>Changement des bobines des moteurs de traction</li>
+                            <li>Réparation et installation des moteurs asynchrones</li>
+                            <li>Maintenance des armoires électriques</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Maintenance</span>
+                            <span class="tech-tag">Électricité</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mes projets</h2>
+                <p class="section-subtitle">Découvrez mes réalisations techniques</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg" alt="Gestion des Missions">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Application Gestion des Missions</h3>
+                        <p>Système complet de gestion des missions développé avec ASP.NET Core et Angular. Interface moderne et API robuste.</p>
+                        <div class="project-tech">
+                            <span>ASP.NET Core</span>
+                            <span>Angular</span>
+                            <span>REST API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg" alt="Gestion des PFE">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Plateforme Gestion des PFE</h3>
+                        <p>Application web pour la gestion des projets de fin d'études. Backend Laravel et frontend ReactJS avec base MySQL.</p>
+                        <div class="project-tech">
+                            <span>Laravel</span>
+                            <span>ReactJS</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg" alt="Extraction SOBEL">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Extraction de Contours SOBEL</h3>
+                        <p>Projet de fin d'études sur l'extraction des contours par la méthode SOBEL. Implémentation en C et MATLAB.</p>
+                        <div class="project-tech">
+                            <span>C</span>
+                            <span>MATLAB</span>
+                            <span>Traitement d'image</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg" alt="Gestion Parc Auto">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Gestion Parc Automobile</h3>
+                        <p>Système de gestion de flotte automobile avec architecture MVC. Développé en C# avec framework ASP.NET.</p>
+                        <div class="project-tech">
+                            <span>C# MVC</span>
+                            <span>ASP.NET</span>
+                            <span>SQL Server</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contactez-moi</h2>
+                <p class="section-subtitle">Discutons de vos projets</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>lahssouhicham@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p>+212 6 16 50 07 42</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <p>linkedin.com/in/lahssou-hicham</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <p>github.com/hiiishaam</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nom complet</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Sujet</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 LAHSSOU HICHAM. Tous droits réservés.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/hiiishaam" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/lahssou-hicham" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:lahssouhicham@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
